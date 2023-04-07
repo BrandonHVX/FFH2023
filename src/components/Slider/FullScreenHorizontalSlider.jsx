@@ -57,7 +57,7 @@ export default function FullScreenHorizontalSlider({ data }) {
               <div className='row justify-content-center align-items-center'>
               <div className='col-md-6'>
               <Div className="cs-hero_text">
-              <img src={item.thumb} width={250}/>
+              <img src={item.thumb} width={250} alt=""/>
               
               </Div>
                 

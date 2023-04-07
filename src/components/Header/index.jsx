@@ -5,7 +5,6 @@ import Newsletter from '../Widget/Newsletter';
 import './header.scss';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
-import DropDown from './DropDown';
 import FFHLogo from '../../images/ffh.png'
 
 export default function Header({ variant }) {
