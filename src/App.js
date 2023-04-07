@@ -29,7 +29,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<CaseStudyShowcaseHome />} />
+          <Route index element={<Home />} />
           <Route
             path="photography-agency"
             element={<PhotographyAgencyHome />}

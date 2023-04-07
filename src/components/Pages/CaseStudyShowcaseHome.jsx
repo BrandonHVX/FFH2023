@@ -9,7 +9,7 @@ export default function CaseStudyShowcaseHome() {
   }, []);
   const heroSocialLinks = [
     {
-      name: 'Behance',
+      name: 'Instagram',
       links: '/',
     },
     {
