@@ -75,7 +75,7 @@ export default function Home() {
         <FunFact
           variant="cs-type1"
           title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="Se perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
           data={funfaceData}
         />
       </div>
