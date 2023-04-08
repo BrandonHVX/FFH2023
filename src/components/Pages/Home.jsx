@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
-import Card from '../Card';
-import FunFact from '../FunFact';
+// import Card from '../Card';
+// import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
-import Cta from '../Cta';
-import LogoList from '../LogoList';
-import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
-import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
-import TeamSlider from '../Slider/TeamSlider';
+// import Cta from '../Cta';
+// import LogoList from '../LogoList';
+// import MovingText from '../MovingText';
+// import PortfolioSlider from '../Slider/PortfolioSlider';
+// import PostSlider from '../Slider/PostSlider';
+// import TestimonialSlider from '../Slider/TestimonialSlider';
+// import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
-import TimelineSlider from '../Slider/TimelineSlider';
+// import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 
 export default function Home() {
