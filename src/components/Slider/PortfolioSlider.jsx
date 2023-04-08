@@ -6,28 +6,28 @@ import Slider from 'react-slick';
 export default function PortfolioSlider() {
   const portfolioData = [
     {
-      title:'Florida Film House',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_1.jpeg'
+      title:'Our Films',
+      subtitle:'Watch Now',
+      href:'/film_showcase',
+      src:'/images/slider_1.jpeg'
     },
     {
       title:'1st Take Youth Program',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_2.jpeg'
+      subtitle:'View Program',
+      href:'/',
+      src:'/images/slider_2.jpeg'
     },
     {
       title:'Urban Film Festival',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_0.jpg'
+      subtitle:'Submit Film',
+      href:'/',
+      src:'/images/slider_3.jpeg'
     },
     {
       title:'World Wide Urban <br /> Distribution',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_3.jpeg'
+      subtitle:'View Company',
+      href:'/',
+      src:'/images/slider_4.jpeg'
     }
   ]
   
@@ -39,6 +39,7 @@ export default function PortfolioSlider() {
     centerPadding: "0",
     slidesToShow: 3,
     speed: 500,
+    arrows: false,
     dots: true,
     verticalSwiping: true,
       swipeToSlide: true,

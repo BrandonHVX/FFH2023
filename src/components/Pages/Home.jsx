@@ -42,8 +42,7 @@ export default function Home() {
       {/* Start Hero Section */}
       <Hero
         title="Team of passionate <br/>mfilmmakers"
-        subtitle="That have filmed over 1,000 productions together and specialize 
-        in making cost-efficient high-quality content."
+        subtitle="Working together to tell stories of their communities to their generation."
        
         btnLink="/contact"
         scrollDownId="#projects"
@@ -56,13 +55,14 @@ export default function Home() {
    <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
+        11 years mentoring young talent, developing an in-house team of more than 
+        30 filmmakers, and vertically integrating their business from service productions 
+        to their own six feature films.
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
+          videoSrc="https://www.youtube.com/watch?v=ReNvKLlP2uY"
+          bgUrl="/images/video_bg_3.jpeg"
         />
       </Div>
       {/* End Video Block Section */}
@@ -72,8 +72,8 @@ export default function Home() {
       <Div id="projects">
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Latest Projects"
+            subtitle="About Our Company"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
