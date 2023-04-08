@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // import Card from '../Card';
-import FunFact from '../FunFact';
+
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
@@ -31,25 +31,7 @@ export default function Home() {
     },
   ];
 
-  // FunFact Data
-  const funfaceData = [
-    {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project Completed',
-      factNumber: '50K',
-    },
-    {
-      title: 'Team Members',
-      factNumber: '245',
-    },
-    {
-      title: 'Digital products',
-      factNumber: '550',
-    },
-  ];
+ 
 
   useEffect(() => {
     window.scrollTo(0, 0);
