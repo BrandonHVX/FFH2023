@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // import Card from '../Card';
-// import FunFact from '../FunFact';
+import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
@@ -59,7 +59,7 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title=" Team of passionate <br/> filmmakers"
+        title="Team of passionate <br/>mfilmmakers"
         subtitle="That have filmed over 1,000 productions together and specialize 
         in making cost-efficient high-quality content."
        

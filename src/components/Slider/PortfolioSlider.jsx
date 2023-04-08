@@ -24,7 +24,7 @@ export default function PortfolioSlider() {
       src:'/images/portfolio_0.jpg'
     },
     {
-      title:'World Wide Urban <br/> Distribution',
+      title:'World Wide Urban <br /> Distribution',
       subtitle:'See Details',
       href:'/portfolio/portfolio-details',
       src:'/images/portfolio_3.jpeg'
