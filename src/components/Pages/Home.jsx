@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 // import Card from '../Card';
 // import CaseStudy from '../CaseStudy';
 import Hero from '../Hero';
-import Cta from '../Cta';
+// import Cta from '../Cta';
 import Portfolio2 from '../Portfolio/Portfolio2';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
