@@ -4,7 +4,6 @@ import React, { useEffect } from 'react';
 import Hero from '../Hero';
 import Cta from '../Cta';
 import Portfolio2 from '../Portfolio/Portfolio2';
-import Portfolio3 from '../Portfolio/Portfolio3';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
@@ -40,7 +39,9 @@ export default function Home() {
       subtitle: 'Company Spotlight',
       btnText: 'View Company',
       btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/portfolio_35.jpeg',
+      imageUrl: '/images/slider_3.jpeg',
+      category: 'COMPANY SPOTLIGHT',
+
      
     },
 
@@ -110,28 +111,14 @@ export default function Home() {
           </Div>
           <Div className="col-lg-5 offset-xl-2">
             <img
-              src="/images/slider_2.jpeg"
+              src="/images/1sttake_4.png"
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-7">
-            <img
-              src="/images/about_img_2.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-5">
-            <img
-              src="/images/about_img_3.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
+       
+       
         </Div>
       </Div>
       <Spacing lg="75" md="55" />
@@ -147,7 +134,7 @@ export default function Home() {
   {/* Start Portfolio Section */}
   <Spacing lg="150" md="80" />
       {portfolioData.map((item, index) =>
-        index % 2 === 0 ? (
+       
           <Div key={index}>
             <Portfolio2
               title={item.title}
@@ -159,26 +146,14 @@ export default function Home() {
             />
             <Spacing lg="100" md="70" />
           </Div>
-        ) : (
-          <Div key={index}>
-            <Portfolio3
-              title={item.title}
-              subtitle={item.subtitle}
-              btnText={item.btnText}
-              btnLink={item.btnLink}
-              imageUrl={item.imageUrl}
-              category={item.category}
-            />
-            <Spacing lg="100" md="70" />
-          </Div>
-        ),
+     
       )}
       {/* End Portfolio Section */}
 
        {/* Start CTA Section */}
       
      
-       <Div className="container text-center">
+       {/* <Div className="container text-center">
       <Div className="cs-section_heading cs-style1">
               <h3 className="cs-section_subtitle">Advertisement</h3>
           
@@ -191,7 +166,7 @@ export default function Home() {
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />
-      </Div>
+      </Div> */}
       {/* End CTA Section */}
 
       {/* Start Portfolio Section */}
