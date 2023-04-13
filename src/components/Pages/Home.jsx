@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // import Card from '../Card';
-import CaseStudy from '../CaseStudy';
+// import CaseStudy from '../CaseStudy';
 import Hero from '../Hero';
 import Cta from '../Cta';
 import Portfolio2 from '../Portfolio/Portfolio2';
@@ -11,7 +11,7 @@ import Spacing from '../Spacing';
 // import Cta from '../Cta';
 // import LogoList from '../LogoList';
 // import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
+// import PortfolioSlider from '../Slider/PortfolioSlider';
 // import PostSlider from '../Slider/PostSlider';
 // import TestimonialSlider from '../Slider/TestimonialSlider';
 // import TeamSlider from '../Slider/TeamSlider';

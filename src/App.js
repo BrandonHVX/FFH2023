@@ -15,7 +15,6 @@ import PhotographyAgencyHome from './components/Pages/PhotographyAgencyHome';
 import CreativePortfolioHome from './components/Pages/CreativePortfolioHome';
 import DigitalAgencyHome from './components/Pages/DigitalAgencyHome';
 import MarketingAgencyHome from './components/Pages/MarketingAgencyHome';
-import ShowcasePortfolioHome from './components/Pages/ShowcasePortfolioHome';
 import CaseStudyShowcaseHome from './components/Pages/CaseStudyShowcaseHome';
 import Layout from './components/Layout';
 import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
