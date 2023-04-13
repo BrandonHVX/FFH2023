@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import parse from 'html-react-parser';
 import Div from '../Div';
+import VideoModalTwo from '../VideoModalTwo';
+import Spacing from '../Spacing';
 
 export default function FullScreenHorizontalSlider({ data }) {
   return (
@@ -15,10 +17,20 @@ export default function FullScreenHorizontalSlider({ data }) {
       <Div className="swiper-button image-swiper-button-prev">
         <Icon icon="bi:arrow-left" /> Prev
       </Div>
+      <Div className="container">
+   
+   <Spacing lg="70" md="70" />
+   <VideoModalTwo
+     videoSrc="https://www.youtube.com/watch?v=ReNvKLlP2uY"
+     bgUrl="/images/video_bg_3.jpeg"
+   />
+ </Div>
+        
       <Swiper
         slidesPerView={1}
         spaceBetween={0}
         mousewheel={true}
+        preventClicks={true}
         pagination={{
           clickable: true,
         }}
@@ -34,13 +46,15 @@ export default function FullScreenHorizontalSlider({ data }) {
       >
         {data.map((item, index) => (
           <SwiperSlide key={index}>
-                    <Div
+                       
+       <Div
                 className=""
                 style={{ backgroundColor: 'black',
                           position:"absolute",
                           height: "100%",
                           width: "100%",
                           opacity: 0.9,
+                        
                       
                           
               
@@ -53,9 +67,10 @@ export default function FullScreenHorizontalSlider({ data }) {
          
               <Link  className="cs-hero_link" />
 
-              <div className='container'>
+              <div className='container' >
               <div className='row justify-content-center align-items-center'>
               <div className='col-md-6'>
+
               <Div className="cs-hero_text">
               <img src={item.thumb} width={250} alt=""/>
               
@@ -65,8 +80,8 @@ export default function FullScreenHorizontalSlider({ data }) {
 <div className='col-md-6'>
 <Div className="cs-hero_text">
 <h2 className="cs-hero_title">{parse(item.title)}</h2>
-                <Link  className="cs-btn cs-style1 cs-type1">
-                    <span>Watch Trailer</span>
+                <Link to={item.href} className="cs-btn cs-style1 cs-type1">
+                    <span>{item.link}</span>
                   </Link>
           
               </Div>

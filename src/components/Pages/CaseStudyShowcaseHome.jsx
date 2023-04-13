@@ -20,28 +20,23 @@ export default function CaseStudyShowcaseHome() {
 
   const showcaseData = [
     {
-      title: 'FLORIDA FILM <br /> HOUSE',
-      imgUrl: '/images/slider_1.jpeg',
+      title: 'Mr. Wrong',
+      imgUrl: '/images/slider_6.jpeg',
       href: '/film_showcase',
-      link: 'Watch Films',
+      link: 'Watch Trailer',
     },
     {
-      title: '1ST TAKE YOUTH <br /> FILM PROGRAM',
-      imgUrl: '/images/slider_2.jpeg',
+      title: 'A Miami Love <br /> Story',
+      imgUrl: '/images/slider_7.jpeg',
       href: '/1st_take_youth_film_program',
-      link: 'View Program',
+      link: 'Watch Trailer',
     },
     {
-      title: 'URBAN FILM <br /> FESTIVAL',
-      imgUrl: '/images/slider_3.jpeg',
-      link: 'Submit Films',
+      title: 'Love and <br /> Reality',
+      imgUrl: '/images/slider_5.jpeg',
+      link: 'Watch Trailer',
     },
-    {
-      title: 'WORLD WIDE URBAN  <br /> DISTRIBUTION ',
-      imgUrl: '/images/slider_4.jpeg',
-      href: '/case-study/case-study-details',
-      link: 'View Company',
-    },
+  
    
   ];
   return (

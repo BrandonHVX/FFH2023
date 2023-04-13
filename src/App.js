@@ -68,7 +68,7 @@ function App() {
           />
           <Route
             path="film_showcase"
-            element={<ShowcasePortfolioHome />}
+            element={<CaseStudyShowcaseHome />}
           />
              <Route
             path="1st_take_youth_film_program"

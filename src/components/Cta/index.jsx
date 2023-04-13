@@ -12,9 +12,9 @@ export default function Cta({title, btnText, btnLink, bgSrc, variant}) {
       <Div className="cs-shape_1" />
       <Div className="cs-shape_1" />
       <Div className="cs-cta_in">
-      <a href="mailto:1sttakeyouth@email.com"   className="cs-btn cs-style1 cs-type1">
+     
                   
-        <h2 className="cs-cta_title cs-semi_bold cs-m0">{parse(title)}</h2> </a>
+        <h2 className="cs-cta_title cs-semi_bold cs-m0">{parse(title)}</h2> 
         {btnText && (
           <>
             <Spacing lg='70' md='30' />

@@ -69,11 +69,35 @@
     transform: rotate(180deg) translateY(50%);
   }
 }
+
+
+
+.cs-hero-overlay {
+  position: relative;
+  padding: 250px 0 170px;
+  height: calc(100vh + 180px);
+  min-height: 1000px;
+  z-index: 10;
+  background-color: rgb(218, 77, 1);
+  background-blend-mode: multiply;
+  
+
+
+}
+
+
+
+
+
 .cs-hero.cs-style1 {
   position: relative;
   padding: 250px 0 170px;
   height: calc(100vh + 180px);
   min-height: 1000px;
+
+
+
+ 
   .cs-hero_title {
     font-size: 120px;
     font-weight: 700;
@@ -106,6 +130,7 @@
     width: 100%;
     left: 0;
     top: 0;
+   
     * {
       height: 100%;
       width: 100%;
@@ -629,7 +654,7 @@
   .cs-hero.cs-style2 {
     height: 700px;
     .cs-hero_tab_item h2 {
-      font-size: 56px;
+      font-size: 46px;
     }
     .cs-hero_tab_item {
       &:not(:last-child) {
@@ -671,7 +696,7 @@
     }
   }
   .cs-hero.cs-style3 {
-    .cs-hero_title {
+    .cs-hero_title .h2 {
       font-size: 38px;
       margin-bottom: 25px;
 
@@ -741,6 +766,7 @@
     min-height: initial;
     padding-top: 200px;
     padding-bottom: 350px;
+  
     .cs-down_btn {
       bottom: 220px;
     }
